@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/20c5629a29.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <nav class="nav-container">
+      <div class="logos-container">
+        <img
+          class="not-in-line-logo"
+          src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695303371/NIL_logo_Transparent_1_1_xdpzxf.png"
+        />
+        <img
+          class="not-in-line-title"
+          src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695303395/Screenshot_2023-07-25_165513-removebg-preview_1_u5yfp8.png"
+        />
+      </div>
+
+      <div class="nav-items-container">
+        <a class="navItem">Home</a>
+        <a class="navItem">Health Conditions</a>
+        <a class="lab-tests-nav-item">Lab Tests</a>
+        <a class="navItem">Medicines</a>
+        <button class="for-whom-item ml-5">For Patients</button>
+        <button class="for-whom-item">For Hospitals</button>
+      </div>
+
+      <button class="play-store-button">
+        <img
+          class="play-store-icon"
+          src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695303411/Rectangle_48_nufa9n.png"
+        />
+        Play Store
+      </button>
+    </nav>
+
+    <div class="form-container">
+      <div>
+        <form class="form-card-container">
+          <h1 class="form-heading">Fill in the details to get a call</h1>
+          <div class="form-section-container">
+            <img
+              class="form-icon"
+              src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695315943/person_dy08w4.svg"
+            />
+            <input
+              class="form-input-field form-placeholder"
+              type="text"
+              placeholder="Full name"
+            />
+          </div>
+
+          <div class="form-section-container">
+            <img
+              class="form-icon"
+              src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695315959/call_1_abdibo.svg"
+            />
+            <input
+              class="form-input-field form-placeholder"
+              type="text"
+              placeholder="Phone number"
+            />
+          </div>
+
+          <div class="form-section-container">
+            <img
+              class="form-icon"
+              src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695315973/distance_mdfkcd.svg"
+            />
+            <input
+              class="form-input-field form-placeholder"
+              type="text"
+              placeholder="Location"
+            />
+          </div>
+
+          <div class="form-section-container ml-3">
+            <input type="checkbox" class="check-icon" />
+            <p class="tc-txt">
+              By continuing, you agree to our
+              <span class="tc-span-txt">T&C</span> and
+              <span class="tc-span-txt">privacy policy</span>
+            </p>
+          </div>
+
+          <button class="proceed-btn">Proceed</button>
+        </form>
+
+        <div class="offer-container">
+          <div class="main-offer-container">
+            <p class="offer-txt">
+              Get a Full Body Checkup <span class="now-span">Now </span
+              ><span class="offer-strike">₹ 5,999 </span>₹ 999
+            </p>
+          </div>
+          <p class="offer-percentage-txt">70% OFF</p>
+        </div>
+      </div>
+
+      <div>
+        <p class="lab-tests-txt">
+          <span class="best-in-class-txt">Best in class </span>lab tests!
+        </p>
+        <svg
+          class="best-in-class-vector"
+          xmlns="http://www.w3.org/2000/svg"
+          width="200"
+          height="21"
+          viewBox="0 0 316 21"
+          fill="none"
+        >
+          <path
+            d="M1 8.36268C20.6372 6.61131 40.967 5.55603 60.9677 4.41552C74.8119 3.62607 88.4275 3.00499 102.442 2.85026C117.266 2.68661 131.234 1.01279 146.251 1.01279C175.253 1.01279 203.705 0.772597 232.432 2.37388C248.34 3.2606 263.939 4.44926 279.653 5.6405C286.24 6.13989 292.535 7.1628 299.043 7.68213C304.376 8.10768 307.661 7.51359 311.97 8.97517C321.267 12.128 306.755 9.82949 300.749 9.31544C258.019 5.65823 211.933 6.10555 168.245 6.55923C150.598 6.7425 132.905 7.35134 115.28 7.75019C94.2024 8.22715 74.5062 11.4996 54.5042 13.807C53.7216 13.8973 16.5874 18.2861 17.5181 18.6389C18.5939 19.0467 22.9576 18.775 24.3407 18.775C38.0287 18.775 51.1362 17.7224 64.4689 16.6313C82.0958 15.1887 99.1572 15.1001 116.986 15.1001C155.933 15.1001 195.423 14.3815 234.048 16.1889C242.82 16.5994 265.253 16.9781 269.239 20"
+            stroke="#008DD9"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+
+        <div class="lab-women-container">
+          <div class="specs-women-container">
+            <div class="lab-spec-card-container-1-3">
+              <img
+                class="lab-spec-img"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695306532/Ellipse_1_z7pd4g.jpg"
+              />
+              <p class="lab-spec-txt">Timely sample collection</p>
+            </div>
+
+            <div class="lab-spec-card-container">
+              <img
+                class="lab-spec-img"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695306543/Ellipse_2_kqrxdz.jpg"
+              />
+              <p class="lab-spec-txt">Complementary report consultation</p>
+            </div>
+
+            <div class="lab-spec-card-container-1-3">
+              <img
+                class="lab-spec-img"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695306553/Ellipse_3_s7qhqz.jpg"
+              />
+              <p class="lab-spec-txt">Accurate timely reports</p>
+            </div>
+          </div>
+          <img
+            class="lab-women-image"
+            src="https://res.cloudinary.com/pirateking/image/upload/v1695121002/Component_1_ojvwfj.png"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="lab-details-container">
+      <div class="labs-accrediation-container">
+        <div class="accrediation-card">
+          <img
+            class="nabl-logo"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695306975/Rectangle_80_jcshui.jpg"
+          />
+          <p class="nabl-sample-txt">NABL Accredited Labs</p>
+        </div>
+
+        <div class="accrediation-card">
+          <img
+            class="free-sample-logo"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695306984/Rectangle_81_orf1sc.jpg"
+          />
+          <p class="nabl-sample-txt">Free sample collection</p>
+        </div>
+      </div>
+
+      <div class="expanding-container">
+        <div>
+          <p class="we-keep-txt">
+            We keep <span class="expanding-txt">expanding </span>!
+          </p>
+          <svg
+            class="expanding-vector"
+            xmlns="http://www.w3.org/2000/svg"
+            width="316"
+            height="21"
+            viewBox="0 0 316 21"
+            fill="none"
+          >
+            <path
+              d="M1 8.36268C20.6372 6.61131 40.967 5.55603 60.9677 4.41552C74.8119 3.62607 88.4275 3.00499 102.442 2.85026C117.266 2.68661 131.234 1.01279 146.251 1.01279C175.253 1.01279 203.705 0.772597 232.432 2.37388C248.34 3.2606 263.939 4.44926 279.653 5.6405C286.24 6.13989 292.535 7.1628 299.043 7.68213C304.376 8.10768 307.661 7.51359 311.97 8.97517C321.267 12.128 306.755 9.82949 300.749 9.31544C258.019 5.65823 211.933 6.10555 168.245 6.55923C150.598 6.7425 132.905 7.35134 115.28 7.75019C94.2024 8.22715 74.5062 11.4996 54.5042 13.807C53.7216 13.8973 16.5874 18.2861 17.5181 18.6389C18.5939 19.0467 22.9576 18.775 24.3407 18.775C38.0287 18.775 51.1362 17.7224 64.4689 16.6313C82.0958 15.1887 99.1572 15.1001 116.986 15.1001C155.933 15.1001 195.423 14.3815 234.048 16.1889C242.82 16.5994 265.253 16.9781 269.239 20"
+              stroke="#008DD9"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </div>
+
+        <div class="lab-details-spec-container">
+          <div class="lab-detail-card">
+            <p class="lab-detail-heading-txt">5+</p>
+            <p class="lab-detail-description-txt">Labs</p>
+          </div>
+
+          <div class="lab-detail-card">
+            <p class="lab-detail-heading-txt">100+</p>
+            <p class="lab-detail-description-txt">Collection centers</p>
+          </div>
+
+          <div class="lab-detail-card">
+            <p class="lab-detail-heading-txt">1000+</p>
+            <p class="lab-detail-description-txt">Monthly tests</p>
+          </div>
+
+          <div class="lab-detail-card">
+            <p class="lab-detail-heading-txt">2200</p>
+            <p class="lab-detail-description-txt">Test menu</p>
+          </div>
+
+          <div class="lab-detail-card">
+            <p class="lab-detail-heading-txt">5+</p>
+            <p class="lab-detail-description-txt">Cities present in</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="top-packages-container">
+      <div class="packages-txt-container">
+        <p class="top-txt">Top <span class="packages-txt">Packages</span></p>
+        <svg
+          class="packages-vector"
+          xmlns="http://www.w3.org/2000/svg"
+          width="316"
+          height="21"
+          viewBox="0 0 316 21"
+          fill="none"
+        >
+          <path
+            d="M1 8.36268C20.6372 6.61131 40.967 5.55603 60.9677 4.41552C74.8119 3.62607 88.4275 3.00499 102.442 2.85026C117.266 2.68661 131.234 1.01279 146.251 1.01279C175.253 1.01279 203.705 0.772597 232.432 2.37388C248.34 3.2606 263.939 4.44926 279.653 5.6405C286.24 6.13989 292.535 7.1628 299.043 7.68213C304.376 8.10768 307.661 7.51359 311.97 8.97517C321.267 12.128 306.755 9.82949 300.749 9.31544C258.019 5.65823 211.933 6.10555 168.245 6.55923C150.598 6.7425 132.905 7.35134 115.28 7.75019C94.2024 8.22715 74.5062 11.4996 54.5042 13.807C53.7216 13.8973 16.5874 18.2861 17.5181 18.6389C18.5939 19.0467 22.9576 18.775 24.3407 18.775C38.0287 18.775 51.1362 17.7224 64.4689 16.6313C82.0958 15.1887 99.1572 15.1001 116.986 15.1001C155.933 15.1001 195.423 14.3815 234.048 16.1889C242.82 16.5994 265.253 16.9781 269.239 20"
+            stroke="#008DD9"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+      </div>
+      <p class="packages-description-txt">
+        Explore our wide range of tests! We ensure that you don’t miss out on
+        any chance to keep yourself healthy.
+      </p>
+    </div>
+
+    <div class="packages-cards-container">
+      <div class="packages-card">
+        <p class="packages-card-heading">Basic Full Body Checkup</p>
+        <div class="rating-container">
+          <p class="rating-txt">4.3</p>
+          <img
+            class="rating-icon"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695320229/grade_aysn40.jpg"
+          />
+          <p class="rating-count">(75 Reviews)</p>
+        </div>
+        <p class="no-of-tests-txt">Number of tests - 53</p>
+        <p class="mrp-txt">
+          MRP : <span class="offer-strike mr-1">₹ 10,000 </span> ₹ 8,490
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+          <button class="book-now-btn">Book Now</button>
+        </div>
+      </div>
+
+      <div class="packages-card">
+        <p class="packages-card-heading">Basic Full Body Checkup</p>
+        <div class="rating-container">
+          <p class="rating-txt">4.3</p>
+          <img
+            class="rating-icon"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695320229/grade_aysn40.jpg"
+          />
+          <p class="rating-count">(75 Reviews)</p>
+        </div>
+        <p class="no-of-tests-txt">Number of tests - 53</p>
+        <p class="mrp-txt">
+          MRP : <span class="offer-strike mr-1">₹ 10,000 </span> ₹ 8,490
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+          <button class="book-now-btn">Book Now</button>
+        </div>
+      </div>
+
+      <div class="packages-card">
+        <p class="packages-card-heading">Basic Full Body Checkup</p>
+        <div class="rating-container">
+          <p class="rating-txt">4.3</p>
+          <img
+            class="rating-icon"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695320229/grade_aysn40.jpg"
+          />
+          <p class="rating-count">(75 Reviews)</p>
+        </div>
+        <p class="no-of-tests-txt">Number of tests - 53</p>
+        <p class="mrp-txt">
+          MRP : <span class="offer-strike mr-1">₹ 10,000 </span> ₹ 8,490
+        </p>
+        <div class="d-flex flex-row justify-content-center">
+          <button class="book-now-btn">Book Now</button>
+        </div>
+      </div>
+      <div class="packages-eclipse-container">
+        <img
+          src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695465013/Arrow_1_yvhqjn.svg"
+        />
+      </div>
+    </div>
+
+    <div class="why-choose-us-container">
+      <div>
+        <p class="why-us-txt">
+          Why <span class="choose-txt">Choose</span> Us ?
+        </p>
+        <svg
+          class="choose-vector"
+          xmlns="http://www.w3.org/2000/svg"
+          width="316"
+          height="21"
+          viewBox="0 0 316 21"
+          fill="none"
+        >
+          <path
+            d="M1 8.36268C20.6372 6.61131 40.967 5.55603 60.9677 4.41552C74.8119 3.62607 88.4275 3.00499 102.442 2.85026C117.266 2.68661 131.234 1.01279 146.251 1.01279C175.253 1.01279 203.705 0.772597 232.432 2.37388C248.34 3.2606 263.939 4.44926 279.653 5.6405C286.24 6.13989 292.535 7.1628 299.043 7.68213C304.376 8.10768 307.661 7.51359 311.97 8.97517C321.267 12.128 306.755 9.82949 300.749 9.31544C258.019 5.65823 211.933 6.10555 168.245 6.55923C150.598 6.7425 132.905 7.35134 115.28 7.75019C94.2024 8.22715 74.5062 11.4996 54.5042 13.807C53.7216 13.8973 16.5874 18.2861 17.5181 18.6389C18.5939 19.0467 22.9576 18.775 24.3407 18.775C38.0287 18.775 51.1362 17.7224 64.4689 16.6313C82.0958 15.1887 99.1572 15.1001 116.986 15.1001C155.933 15.1001 195.423 14.3815 234.048 16.1889C242.82 16.5994 265.253 16.9781 269.239 20"
+            stroke="#008DD9"
+            stroke-width="2"
+            stroke-linecap="round"
+          />
+        </svg>
+        <p class="choose-us-description">
+          We want you and your heart to be healthy so you can live a happy life!
+        </p>
+      </div>
+
+      <div class="choose-us-cards-img-container">
+        <div class="mt-5 d-flex flex-column justify-content-between">
+          <div class="choose-us-card">
+            <div
+              class="d-flex flex-row justify-content-between"
+              style="height: 600px; margin-top: 30px"
+            >
+              <p class="choose-us-card-title">NABL Accredited Labs</p>
+              <img
+                class="choose-us-eclipse"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695312111/Ellipse_16_cde6md.jpg"
+              />
+            </div>
+            <div>
+              <p class="choose-us-card-description">
+                Get accurate and safe results from our NABL-certified lab
+                partners.
+              </p>
+            </div>
+          </div>
+
+          <div class="choose-us-card">
+            <div class="d-flex flex-row justify-content-between">
+              <p class="choose-us-card-title">Timely collections</p>
+              <img
+                class="choose-us-eclipse"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695312145/Ellipse_13_bjgq9q.jpg"
+              />
+            </div>
+            <p class="choose-us-card-description">
+              We collect samples timely to prevent treatment delays and ensure
+              your continued well-being.
+            </p>
+          </div>
+        </div>
+
+        <div class="choose-us-cards-container mt-5 pb-5">
+          <div
+            class="d-flex flex-column justify-content-between"
+            style="height: 600px; margin-top: 30px"
+          >
+            <div class="choose-us-card mt-5 mb-5">
+              <div class="d-flex flex-row justify-content-between">
+                <p class="choose-us-card-title">Value experience</p>
+                <img
+                  class="choose-us-eclipse"
+                  src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695312199/Ellipse_14_snt1ki.jpg"
+                />
+              </div>
+              <p class="choose-us-card-description">
+                Experience seamless care without the hassle of waiting in long
+                lines for an appointment. Book with us for a healthier
+                lifestyle.
+              </p>
+            </div>
+
+            <div class="choose-us-card mt-5 mb-5">
+              <div class="d-flex flex-row justify-content-between">
+                <p class="choose-us-card-title">Transparency</p>
+                <img
+                  class="choose-us-eclipse"
+                  src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695312216/Ellipse_15_lle4og.jpg"
+                />
+              </div>
+              <p class="choose-us-card-description">
+                Enjoy hassle free medical assistance with our transparent
+                approach. We prioritize transparency for your smooth medical
+                journey.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row justify-content-start">
+            <img
+              class="choose-us-women mb-5"
+              src="https://res.cloudinary.com/pirateking/image/upload/v1695121052/7abdc343ec5597511b0cfad06f6f7e17_uys00y.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-container">
+      <div class="footer-info-container">
+        <div class="footer-co-info">
+          <img
+            class="footer-co-logo"
+            src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695303371/NIL_logo_Transparent_1_1_xdpzxf.png"
+          />
+          <p class="footer-co-description">
+            Book doctor appointments online and get your ailments treated in no
+            time with our expert medical support systems. Get rid of all your
+            medical problem with our expert panel of doctors who guide you
+            towards a healthier life.
+          </p>
+          <div class="footer-co-contact-container">
+            <div>
+              <p class="footer-co-94-txt">
+                91+ <span class="co-pipe"> |</span>
+              </p>
+            </div>
+            <div class="phone-container">
+              <img
+                class="phone-icon"
+                src="https://res.cloudinary.com/dzt6qmhmq/image/upload/v1695312715/call_rfyxoc.svg"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="products-container">
+          <div class="product-card">
+            <h1 class="product-heading">Services</h1>
+            <p class="products-list-item">Appointments</p>
+            <p class="products-list-item">Lab tests</p>
+            <p class="products-list-item">A-Z medicine</p>
+            <p class="products-list-item">Doctor support</p>
+          </div>
+
+          <div class="product-card">
+            <h1 class="product-heading">Legal</h1>
+            <p class="products-list-item">General info</p>
+            <p class="products-list-item">Privacy policy</p>
+            <p class="products-list-item">Terms of service</p>
+            <p class="products-list-item">Consultation</p>
+            <p class="products-list-item">How it works</p>
+          </div>
+
+          <div class="product-card">
+            <h1 class="product-heading">Talk to us</h1>
+            <p class="products-list-item">support@notinline.com</p>
+            <p class="products-list-item">appointment@notinline.com</p>
+            <p class="products-list-item">+91 12345 67899</p>
+            <p class="products-list-item">+91 97642 09752</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="horizontal-rule-line" />
+      <div class="copyrights-container">
+        <p class="copyrights-logo">c</p>
+        <p class="copyrights-txt ml-2">2021-2023 All Rights Reserved</p>
+      </div>
+    </div>
+  </body>
+</html>
